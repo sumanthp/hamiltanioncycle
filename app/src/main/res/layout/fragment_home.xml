@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.krishna.hamiltoniancycle.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/values_count"
+            android:background="@android:color/white"
+            android:layout_margin="10dp"
+            android:hint="Enter number of vertices"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/values_array"
+            android:background="@android:color/white"
+            android:layout_margin="10dp"
+            android:hint="Enter matrix values"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:background="@color/colorPrimary"
+            android:text="Submit"/>
+    </LinearLayout>
+
+</FrameLayout>
